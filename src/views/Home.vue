@@ -1,18 +1,17 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/nft-preview-card">NFT Preview Card</router-link>
+    </div>
+    <!-- TODO: setup as a portfolio site and link to all projects (modules) as well as GitHub repo -->
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
 export default defineComponent({
-  name: 'Home',
-  components: {
-    HelloWorld,
-  },
+  name: 'Home'
 });
 </script>
