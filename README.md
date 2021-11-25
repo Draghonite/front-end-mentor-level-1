@@ -1,6 +1,6 @@
 # Frontend Mentor - Level 1 Solutions
 
-This is a collection of solutions to [Frontend Mentor](https://www.frontendmentor.io/challenges/) challenges. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a collection of solutions to [Frontend Mentor](https://www.frontendmentor.io/challenges/) level 1 challenges; link to my [profile](https://www.frontendmentor.io/profile/Draghonite). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
