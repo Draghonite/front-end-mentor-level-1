@@ -1,6 +1,6 @@
 <template>
     <div class="app-nft-card-view">
-        <div class="card">
+        <main class="card">
             <div class="card-header">
                 <div class="card-bg image-equilibrium"></div>
                 <div class="overlay">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     </div>
 </template>
 
