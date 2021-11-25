@@ -16,7 +16,7 @@ This is a collection of solutions to [Frontend Mentor](https://www.frontendmento
 ### The challenges
 
 This contains several collections, focusing on Level 1 complexity, namely:
-- [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/nft-preview-card-component-_Wt184YEK) [My Solution](https://draghonite.github.io/front-end-mentor-level-1/#/nft-preview-card)
+- [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/nft-preview-card-component-_Wt184YEK) | [My Solution](https://draghonite.github.io/front-end-mentor-level-1/#/nft-preview-card)
 - ...
 
 ## My process
@@ -35,5 +35,5 @@ In order to allow building many designs in a single Vue.js application, a modula
 
 ## Acknowledgments
 
-- (Base64 Image Encoder)[https://elmah.io/tools/base64-image-encoder/]
+- [Base64 Image Encoder](https://elmah.io/tools/base64-image-encoder/)
   - it's just so much easier to base-64 encode images (.png, .jpg or even .svg) and add as a background via CSS than to reference external resources, especially given the modular project strucutre.  This online tool was pivotal in this strategy.
