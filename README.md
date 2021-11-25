@@ -17,6 +17,7 @@ This is a collection of solutions to [Frontend Mentor](https://www.frontendmento
 
 This contains several collections, focusing on Level 1 complexity, namely:
 - [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/nft-preview-card)
+- [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/order-summary)
 - ...
 
 ## My process
@@ -31,9 +32,9 @@ Several technologies and techniques were used in the process, including:
 
 ### What I learned
 
-In order to allow building many designs in a single Vue.js application, a modular architectural pattern was followed in the structure of the Vue.js project, along with careful and consistent CSS/Sass styling.
+In order to allow building many designs in a single Vue.js application, a scalable, modular architectural pattern was followed in the structure of the Vue.js project, along with careful and consistent CSS/Sass styling.
 
 ## Acknowledgments
 
 - [Base64 Image Encoder](https://elmah.io/tools/base64-image-encoder/)
-  - it's just so much easier to base-64 encode images (.png, .jpg or even .svg) and add as a background via CSS than to reference external resources, especially given the modular project strucutre.  This online tool was pivotal in this strategy.
+  - I found it easier and cleaner to base-64 encode images (.png, .jpg and .svg) and add as a background via CSS than to reference external resources, especially given the modular project structure.  This online tool was pivotal in this strategy.
