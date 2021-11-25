@@ -3,4 +3,95 @@
 
 .app-order-summary {
     height: 100vh;
+    font-family: $font-family;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary-pale-blue;
+
+    .card {
+        width: $card-width-desktop;
+        background-color: #fff;
+        box-shadow: 0 20px 30px $color-neutral-desaturated-blue-lighter;
+        border-radius: 20px;
+        font-size: $text-body-font-size;
+        
+        .card-header {
+            border-radius: 20px 20px 0 0;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            padding: 60px;
+
+            h1, h2 {
+                margin-top: 0;
+            }
+            .content {
+                color: $color-neutral-desaturated-blue;
+                font-weight: 500;
+            }
+            .plan {
+                width: 100%;
+                margin: 1.2em 0;
+                background-color: $color-neutral-very-pale-blue;
+                border-radius: 20px;
+
+                .details {
+                    padding: 1.5em;
+                    display: flex;
+                }
+                .icon {
+                    flex-grow: 1;
+                }
+                .name-price {
+                    flex-grow: 3;
+                }
+                .price {
+                    flex-grow: 1;
+                    color: $color-neutral-dark-blue;
+                }
+                .name {
+                    margin: 0;
+                    font-size: 1.2em;
+                }
+            }
+            .actions {
+                button {
+                    margin-top: 1.5em;
+                }
+            }
+            .btn {
+                font-weight: 700;
+            }
+            .btn.btn-link {
+                cursor: pointer;
+            }
+            .btn.btn-link:hover {
+                text-decoration: none;
+            }
+            .btn.primary {
+                background-color: $color-primary-bright-blue;
+                color: #fff;
+                cursor: pointer;
+                border-radius: 15px;
+                box-shadow: 0 20px 30px $color-neutral-desaturated-blue-really-light;
+            }
+            .btn.primary:hover {
+                background-color: $color-primary-subdued-blue;
+            }
+            .btn.secondary {
+                background: none;
+                border: none;
+                font-size: 1em;
+                color: $color-neutral-dark-blue;
+                cursor: pointer;
+            }
+            .btn.secondary:hover {
+                color: #000;
+            }
+        }
+    }
 }
