@@ -1,14 +1,12 @@
 <template>
-  <router-view/>
+  <router-view />
 </template>
 
-<style lang="scss">
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-#app {
-  height: 100vh;
-}
-</style>
+<script type="ts">
+import { defineComponent } from 'vue';
+import './assets/scss/style.scss';
+
+export default defineComponent({
+  name: 'App'
+})
+</script>

@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 import { routes as NFTRoutes } from '../modules/1-nft-preview-card'
+import { routes as OrderSummaryRoutes } from '@/modules/2-order-summary'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -8,7 +9,8 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Home',
     component: Home
   },
-  ...NFTRoutes
+  ...NFTRoutes,
+  ...OrderSummaryRoutes
 ]
 
 const router = createRouter({
