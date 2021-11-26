@@ -1,0 +1,109 @@
+@import './variables';
+@import './images';
+
+.app-three-column-preview {
+    background-color: $color-neutral-very-light-gray-bg-headings-buttons;
+    padding: 4em 0;
+    font-family: $font-family-lexend-deca;
+    font-size: $text-body-copy-font-size;
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .card:first-of-type {
+            border-radius: 10px 10px 0 0;
+        }
+        .card:last-of-type {
+            border-radius: 0 0 10px 10px;
+        }
+        .card {
+            width: 327px;
+            height: 442px;
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: space-around;
+            color: $color-neutral-transparent-white-para;
+            
+            &.sedans {
+                background-color: $color-primary-bright-orange;
+                button {
+                    color: $color-primary-bright-orange;
+                }
+                button:hover {
+                    color: $color-neutral-transparent-white-para;
+                    background-color: $color-primary-bright-orange;
+                }
+            }
+            &.suvs {
+                background-color: $color-primary-dark-cyan;
+                button {
+                    color: $color-primary-dark-cyan;
+                }
+                button:hover {
+                    color: $color-neutral-transparent-white-para;
+                    background-color: $color-primary-dark-cyan;
+                }
+            }
+            &.luxury {
+                background-color: $color-primary-very-dark-cyan;
+                button {
+                    color: $color-primary-very-dark-cyan;
+                }
+                button:hover {
+                    color: $color-neutral-transparent-white-para;
+                    background-color: $color-primary-very-dark-cyan;
+                }
+            }
+
+            .card-body {
+                margin: 3em;
+                h1 {
+                    color: $color-neutral-very-light-gray-bg-headings-buttons;
+                    text-transform: uppercase;
+                    font-family: $font-family-big-shoulders-display;
+                    font-size: 2.8em;
+                }
+                p {
+                    line-height: 1.8em;
+                }
+                button {
+                    background-color: $color-neutral-very-light-gray-bg-headings-buttons;
+                    border: 3px solid transparent;
+                    border-radius: 30px;
+                    padding: 1em 1.8em;
+                    font-size: 1.2em;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+                button:hover {
+                    border: 3px solid $color-neutral-transparent-white-para;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 1100px) {
+        & {
+            height: 100vh;
+            padding: 0;
+        }
+        .cards {
+            height: 100vh;
+            flex-direction: row;
+            .card {
+                width: 307px;
+                height: 500px;
+            }
+            .card:first-of-type {
+                border-radius: 10px 0 0 10px;
+            }
+            .card:last-of-type {
+                border-radius: 0 10px 10px 0;
+            }
+        }
+    }
+}

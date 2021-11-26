@@ -3,6 +3,14 @@ import Home from '../views/Home.vue'
 import { routes as NFTRoutes } from '../modules/1-nft-preview-card'
 import { routes as OrderSummaryRoutes } from '@/modules/2-order-summary'
 import { StatsPreviewRoutes } from '@/modules/3-stats-preview-card'
+import { ThreeColumnPreviewRoutes } from '@/modules/4-three-column-preview-card'
+
+const modules = [
+  ...NFTRoutes, 
+  ...OrderSummaryRoutes, 
+  ...StatsPreviewRoutes,
+  ...ThreeColumnPreviewRoutes
+];
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -10,9 +18,7 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Home',
     component: Home
   },
-  ...NFTRoutes,
-  ...OrderSummaryRoutes,
-  ...StatsPreviewRoutes
+  ...modules
 ]
 
 const router = createRouter({
