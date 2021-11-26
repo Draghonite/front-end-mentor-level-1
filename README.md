@@ -27,6 +27,7 @@ This contains several collections, focusing on Level 1 complexity, namely:
 Several technologies and techniques were used in the process, including:
 - Flexbox
 - CSS Grid
+- Mobile First Design
 - [Vue.js](https://vuejs.org/) - JS library
 - [TypeScript](https://www.typescriptlang.org/)
 

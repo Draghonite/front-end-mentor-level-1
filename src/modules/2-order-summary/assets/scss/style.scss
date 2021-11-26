@@ -2,45 +2,63 @@
 @import './images';
 
 .app-order-summary {
-    height: 100vh;
     font-family: $font-family;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: $color-primary-pale-blue;
+    height: 100vh;
+    min-height: 709px;
+    font-size: $text-body-font-size;
+    color: $color-neutral-dark-blue;
 
     .card {
-        width: $card-width-desktop;
+        max-width: 329px;
+        max-height: 568px;
         background-color: #fff;
-        box-shadow: 0 20px 30px $color-neutral-desaturated-blue-lighter;
+        box-shadow: 0 30px 30px -1em $color-neutral-desaturated-blue-really-light;
         border-radius: 20px;
         font-size: $text-body-font-size;
         
         .card-header {
             border-radius: 20px 20px 0 0;
+            width: 100%;
+            height: 160px;
+
+            &.image-illustration-hero {
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
         }
         .card-body {
             display: flex;
             flex-direction: column;
+            gap: 1.5rem;
             justify-items: center;
             align-items: center;
-            padding: 60px;
+            padding: 20px;
+            font-size: .95em;
 
             h1, h2 {
-                margin-top: 0;
+                margin: 0;
+                font-size: 1em;
+                font-weight: 900;
+            }
+            h1 {
+                font-size: 1.5em;
             }
             .content {
+                text-align: center;
+                width: 90%;
                 color: $color-neutral-desaturated-blue;
-                font-weight: 500;
             }
             .plan {
                 width: 100%;
-                margin: 1.2em 0;
                 background-color: $color-neutral-very-pale-blue;
-                border-radius: 20px;
+                border-radius: 15px;
 
                 .details {
-                    padding: 1.5em;
+                    padding: 1rem;
                     display: flex;
                 }
                 .icon {
@@ -48,25 +66,24 @@
                 }
                 .name-price {
                     flex-grow: 3;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
                 }
                 .price {
+                    color: $color-neutral-desaturated-blue;
+                }
+                .action {
                     flex-grow: 1;
+                    font-weight: 900;
                     color: $color-neutral-dark-blue;
-                }
-                .name {
-                    margin: 0;
-                    font-size: 1.2em;
-                }
-            }
-            .actions {
-                button {
-                    margin-top: 1.5em;
+                    font-size: .8em;
                 }
             }
             .btn {
+                font-size: 1em;
                 font-weight: 700;
-            }
-            .btn.btn-link {
+                border: none;
                 cursor: pointer;
             }
             .btn.btn-link:hover {
@@ -75,8 +92,7 @@
             .btn.primary {
                 background-color: $color-primary-bright-blue;
                 color: #fff;
-                cursor: pointer;
-                border-radius: 15px;
+                border-radius: 10px;
                 box-shadow: 0 20px 30px $color-neutral-desaturated-blue-really-light;
             }
             .btn.primary:hover {
@@ -85,10 +101,9 @@
             .btn.secondary {
                 background: none;
                 border: none;
-                font-size: 1em;
-                color: $color-neutral-dark-blue;
-                cursor: pointer;
-            }
+                color: $color-neutral-desaturated-blue;
+                font-weight: 900;
+            }            
             .btn.secondary:hover {
                 color: #000;
             }

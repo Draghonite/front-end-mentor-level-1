@@ -14,12 +14,12 @@
                             <h2 class="name">Annual Plan</h2>
                             <div class="price">$59.99/year</div>
                         </div>
-                        <button type="button" class="btn btn-link">Change</button>
+                        <button type="button" class="btn btn-link action">Change</button>
                     </div>
                 </div>
                 <div class="actions">
                     <button type="button" class="btn btn-lg primary">Proceed to Payment</button>
-                    <button type="button" class="btn btn-lg secondary">Cancel Order</button>
+                    <button type="button" class="btn btn-lg secondary mt-1">Cancel Order</button>
                 </div>
             </div>
         </div>
