@@ -12,6 +12,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: .5em; // not needed but added for the challenge alignment
 
         .card:first-of-type {
             border-radius: 10px 10px 0 0;
@@ -75,9 +76,10 @@
                     border: 3px solid transparent;
                     border-radius: 30px;
                     padding: 1em 1.8em;
-                    font-size: 1.2em;
+                    font-size: 1em;
                     font-weight: 600;
                     cursor: pointer;
+                    margin-top: .5em;
                 }
                 button:hover {
                     border: 3px solid $color-neutral-transparent-white-para;
@@ -103,6 +105,9 @@
             }
             .card:last-of-type {
                 border-radius: 0 10px 10px 0;
+            }
+            buttton {
+                margin-top: 4em;
             }
         }
     }
