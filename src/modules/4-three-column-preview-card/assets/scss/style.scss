@@ -99,15 +99,15 @@
             .card {
                 width: 307px;
                 height: 500px;
+                button.btn {
+                    margin-top: 4em;
+                }
             }
             .card:first-of-type {
                 border-radius: 10px 0 0 10px;
             }
             .card:last-of-type {
                 border-radius: 0 10px 10px 0;
-            }
-            buttton {
-                margin-top: 4em;
             }
         }
     }
