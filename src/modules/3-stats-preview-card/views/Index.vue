@@ -1,5 +1,5 @@
 <template>
-    <div class="app-stats-preview">
+    <main class="app-stats-preview">
         <div class="card">
             <div class="card-header image-header"></div>
             <div class="card-body">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 </template>
 
 <script lang="ts">
