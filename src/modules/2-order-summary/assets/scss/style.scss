@@ -13,7 +13,8 @@
     color: $color-neutral-dark-blue;
 
     .card {
-        max-width: 329px;
+        min-width: 329px;
+        max-width: 335px;
         max-height: 568px;
         background-color: #fff;
         box-shadow: 0 30px 30px -1em $color-neutral-desaturated-blue-really-light;
@@ -107,6 +108,12 @@
             .btn.secondary:hover {
                 color: #000;
             }
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .card {
+            max-width: 329px;
         }
     }
 }
