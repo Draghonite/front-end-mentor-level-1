@@ -4,12 +4,14 @@ import { routes as NFTRoutes } from '../modules/1-nft-preview-card'
 import { routes as OrderSummaryRoutes } from '@/modules/2-order-summary'
 import { StatsPreviewRoutes } from '@/modules/3-stats-preview-card'
 import { ThreeColumnPreviewRoutes } from '@/modules/4-three-column-preview-card'
+import { ProfileCardRoutes } from '@/modules/5-profile-card'
 
 const modules = [
   ...NFTRoutes, 
   ...OrderSummaryRoutes, 
   ...StatsPreviewRoutes,
-  ...ThreeColumnPreviewRoutes
+  ...ThreeColumnPreviewRoutes,
+  ...ProfileCardRoutes
 ];
 
 const routes: Array<RouteRecordRaw> = [

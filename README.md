@@ -20,6 +20,7 @@ This contains several collections, focusing on Level 1 complexity, namely:
 - [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/order-summary)
 - [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/stats-preview)
 - [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/three-column-preview)
+- [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/profile-card)
 - ...
 
 ## My process
