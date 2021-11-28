@@ -7,8 +7,8 @@
                 <div class="list-items">
                     <div v-for="item in items" :key="item" class="list-item" :class="{active: item.IsShown}">
                         <button class="collapsible" type="button" v-on:click="item.IsShown = !item.IsShown">
-                            <div class="title">{{item.Title}}</div>
-                            <div class="icon icon-arrow"></div>
+                            <span class="title">{{item.Title}}</span>
+                            <span class="icon icon-arrow"></span>
                         </button>
                         <div class="content">{{item.Content}}</div>
                     </div>
