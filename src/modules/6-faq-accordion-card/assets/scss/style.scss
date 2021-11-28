@@ -2,7 +2,7 @@
 @import './variables';
 
 .app-faq-accordion-card {
-    min-height: 767px;
+    min-height: max(767px, 100vh);
     font-family: $font-family;
     font-size: $text-body-copy-font-size;
     display: flex;
@@ -14,6 +14,7 @@
         background: #fff;
         border-radius: 25px;
         margin-top: 107px;
+        box-shadow: 0 60px 60px -40px #333333AA;
         .card-header {
             width: 236px;
             height: 180px;
@@ -86,12 +87,13 @@
             margin-top: 0;
             &::before {
                 content: $illustration-box-desktop;
-                margin: auto;
                 margin-left: -98px;
                 margin-right: -93px;
                 z-index: 99;
                 position: relative;
-                top: 56px;
+                width: 191px;
+                height: 184px;
+                top: 220px;
                 left: 5px;
             }
             .card-header {
