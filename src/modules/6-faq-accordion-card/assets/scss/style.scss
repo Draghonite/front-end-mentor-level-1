@@ -1,0 +1,125 @@
+@import './images';
+@import './variables';
+
+.app-faq-accordion-card {
+    min-height: 767px;
+    font-family: $font-family;
+    font-size: $text-body-copy-font-size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient($color-primary-gradient-soft-violet-bg, $color-primary-gradient-soft-blue-bg);
+    .card {
+        max-width: 327px;
+        background: #fff;
+        border-radius: 25px;
+        margin-top: 107px;
+        .card-header {
+            width: 236px;
+            height: 180px;
+            background: $illustration-woman-online-mobile;
+            background-repeat: no-repeat;
+            margin: auto;
+            margin-top: -107px;
+            &::after {
+                content: $bg-pattern-mobile;
+                width: 236px;
+                height: 180px;
+                position: relative;
+                top: 107px;
+            }
+        }
+        .card-body {
+            margin: 2em;
+            h1 {
+                font-size: 2.7em;
+                text-align: center;
+                margin-top: 1.7em;
+                margin-bottom: .5em;
+                font-weight: 700;
+            }
+            .list-items {
+                margin-bottom: 4em;
+                .list-item {
+                    border-bottom: 1px solid #ddd;
+                    &.active {
+                        .collapsible {
+                            font-weight: 700;
+                            color: #000;
+                        }
+                        .content {
+                            margin-right: 2em;
+                            padding-bottom: 1.5em;
+                            height: auto;
+                            opacity: 1;
+                        }
+                    }
+                    .collapsible {
+                        color: $color-neutral-text-very-dark-grayish-blue;
+                        width: 100%;
+                        border: none;
+                        min-height: 50px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        background: none;
+                        cursor: pointer;
+                    }
+                    .content {
+                        color: $color-neutral-text-dark-grayish-blue;
+                        height: 0;
+                        opacity: 0;
+                        overflow: hidden;
+                        transition: opacity 0.2s linear;
+                    }
+                }
+            } 
+        }
+    }
+
+    @media screen and (min-width: 970px) {
+        .card {
+            width: 920px;
+            max-width: 920px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 0;
+            &::before {
+                content: $illustration-box-desktop;
+                margin: auto;
+                margin-left: -98px;
+                margin-right: -93px;
+                z-index: 99;
+                position: relative;
+                top: 56px;
+                left: 5px;
+            }
+            .card-header {
+                background: $bg-pattern-desktop;
+                background-position-x: -575px;
+                background-position-y: -287px;
+                width: 50%;
+                height: auto;
+                background-repeat: no-repeat;
+                margin: 0;
+                overflow: hidden;
+                &::after {
+                    content: $illustration-woman-online-desktop;
+                    margin: auto;
+                    top: 82px;
+                    left: -82px;
+                }
+            }
+            .card-body {
+                margin-left: 0;
+                h1 {
+                    text-align: left;
+                }
+                .list-items {
+                    max-width: 29em;
+                    margin-right: 7em;
+                }
+            }
+        }
+    }
+}

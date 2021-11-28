@@ -5,13 +5,15 @@ import { routes as OrderSummaryRoutes } from '@/modules/2-order-summary'
 import { StatsPreviewRoutes } from '@/modules/3-stats-preview-card'
 import { ThreeColumnPreviewRoutes } from '@/modules/4-three-column-preview-card'
 import { ProfileCardRoutes } from '@/modules/5-profile-card'
+import { FAQAccordionRoutes } from '@/modules/6-faq-accordion-card'
 
 const modules = [
   ...NFTRoutes, 
   ...OrderSummaryRoutes, 
   ...StatsPreviewRoutes,
   ...ThreeColumnPreviewRoutes,
-  ...ProfileCardRoutes
+  ...ProfileCardRoutes,
+  ...FAQAccordionRoutes
 ];
 
 const routes: Array<RouteRecordRaw> = [

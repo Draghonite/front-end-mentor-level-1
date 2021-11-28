@@ -1,4 +1,9 @@
 
+// TODO: breaking change added in challenge 6 -- revisit previous challenges
+* {
+    margin: 0;
+    padding: 0;
+}
 /* Bootstrap-inspired global helper CSS styles */
 .d-flex { display: flex; }
 .justify-content-start { justify-content: start; }
