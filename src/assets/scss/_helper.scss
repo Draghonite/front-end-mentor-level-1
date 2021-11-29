@@ -6,9 +6,11 @@
 }
 /* Bootstrap-inspired global helper CSS styles */
 .d-flex { display: flex; }
+.flex-column { flex-direction: column; }
 .justify-content-start { justify-content: start; }
 .justify-content-center { justify-content: center; }
 .justify-content-between { justify-content: space-between; }
+.justify-content-around { justify-content: space-around; }
 .align-items-center { align-items: center; }
 .m-0 { margin: 0; }
 .mt-1 { margin-top: .5em; }
@@ -21,3 +23,4 @@
 .overlay { display: none; }
 .btn.btn-link { border: 0; padding: 0; margin: 0; text-decoration: underline; background: none; }
 .btn.btn-lg { width: 100%; padding: 1em; font-size: 1.2em; }
+.btn.nostyle { border: 0; padding: 0; margin: 0; background: none; }

@@ -7,7 +7,8 @@
       <router-link to="/stats-preview">Stats Preview</router-link> |
       <router-link to="/three-column-preview">Three Column Preview</router-link> |
       <router-link to="/profile-card">Profile Card</router-link> |
-      <router-link to="/faq-accordion-card">FAQ Accordion Card</router-link>
+      <router-link to="/faq-accordion-card">FAQ Accordion Card</router-link> |
+      <router-link to="/article-preview">Article Preview</router-link>
     </div>
     <!-- TODO: setup as a portfolio site and link to all projects (modules) as well as GitHub repo -->
   </div>

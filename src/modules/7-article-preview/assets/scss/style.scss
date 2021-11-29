@@ -1,0 +1,213 @@
+@import './variables';
+@import './images';
+
+.app-article-preview {
+    min-height: min(666px, 100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-light-grayish-blue;
+    font-family: $font-family;
+    font-size: $text-body-copy-font-size;
+    
+    .card {
+        margin: 3.7em 0;
+        max-width: 327px;
+        border-radius: 10px;
+        background-color: #fff;
+        overflow: hidden;
+        button {
+            padding: 0;
+            margin: 0;
+            border: none;
+            cursor: pointer;
+        }
+        .card-header {
+            width: 327px;
+            height: 200px;
+            background-size: cover;
+            background-position-y: -16px;
+            background-repeat: no-repeat;
+        }
+        .card-body {
+            padding: 2.5em;
+            h1 {
+                font-size: 1.26em;
+                font-weight: 700;
+                color: $color-very-dark-grayish-blue;
+                line-height: 1.5em;
+                margin-bottom: .8em;
+            }
+            .content {
+                color: $color-very-dark-grayish-blue;
+                line-height: 1.5em;
+            }
+        }
+        .share-menu {
+            padding: 1em 2.5em 1.3em 2.5em;
+            text-transform: uppercase;
+            color: $color-grayish-blue;
+            font-weight: 400;
+            font-size: 1em;
+            letter-spacing: .3em;
+            background-color: $color-very-dark-grayish-blue;
+            display: flex;
+            place-items: center;
+            .share-options {
+                display: flex;
+                align-items: center;
+            }
+            .share-options i {
+                color: $color-light-grayish-blue;
+                font-size: 1.8em;
+                margin-left: .6em;
+            }
+            .share {
+                background-color: $color-desaturated-dark-blue;
+                color: $color-light-grayish-blue;
+                width: 30px;
+                height: 30px;
+                display: grid;
+                place-items: center;
+                border-radius: 50%;
+                font-size: 1.3em;
+                padding: 1px;
+                cursor: pointer;
+                position: relative;
+                z-index: 2;
+            }
+        }
+        .card-footer {
+            padding: .5em 2.5em 1.3em 2.5em;
+            img {
+                width: 40px;
+                border-radius: 50%;
+                margin-right: 1.2em;
+            }
+            .profile-name {
+                font-weight: 700;
+                color: $color-very-dark-grayish-blue;
+                z-index: 1;
+            }
+            .article-date {
+                color: $color-grayish-blue;
+                z-index: 1;
+            }
+            .share {
+                color: $color-desaturated-dark-blue;
+                background-color: $color-light-grayish-blue;
+                width: 30px;
+                height: 30px;
+                display: grid;
+                place-items: center;
+                border-radius: 50%;
+                font-size: 1.3em;
+                padding: 1px;
+                cursor: pointer;
+                position: relative;
+                z-index: 2;
+            }
+            .share:hover {
+                background-color: $color-desaturated-dark-blue;
+                color: $color-light-grayish-blue;
+            }
+        }
+        .card-content {
+            .share-menu {
+                visibility: collapse;
+                height: 0;
+                padding: 0;
+            }
+            .card-footer {
+                visibility: visible;
+                height: 40px;
+                padding: .5em 2.5em 1.3em 2.5em;
+            }
+        }
+        .card-content.is-sharing {
+            .share-menu {
+                visibility: visible;
+                height: 25px;
+                padding: 1em 2.5em 1.3em 2.5em;
+            }
+            .card-footer {
+                visibility: collapse;
+                height: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        min-height: min(799px, 100vh);
+        .card {
+            max-width: 730px;
+            display: flex;
+            overflow: unset;
+            .card-header {
+                width: 688px;
+                height: 280px;
+                background-position: 0;
+                border-radius: 10px 0 0 10px;
+            }
+            .card-body {
+                padding-left: 3em;
+                padding-bottom: 1em;
+                h1 {
+                    font-size: 1.6em;
+                    line-height: 1.3em;
+                }
+            }
+            .card-content {
+                position: relative;
+                .share-menu {
+                    visibility: collapse;
+                    height: 0;
+                    padding: 0;
+                }
+                .card-footer {
+                    visibility: visible;
+                    height: 40px;
+                    padding: .5em 2.5em 1.3em 2.5em;
+                    padding-left: 3em;
+                }
+            }
+            .card-content.is-sharing {
+                .share-menu {
+                    .btn.share {
+                        display: none;
+                    }
+                    position: absolute;
+                    bottom: 95px;
+                    border-radius: 10px;
+                    right: -70px;
+                    border-radius: 10px;
+                    padding-left: 1.5em;
+                    padding-right: 1.5em;
+                    &::before, &::after {
+                        content: '';
+                        width: 15px;
+                        height: 15px;
+                        top: 28px;
+                        position: relative;
+                        background-color: $color-very-dark-grayish-blue;
+                    }
+                    &::before {
+                        left: 50%;
+                        transform: skew(0, -45deg);
+                    }
+                    &::after {
+                        left: -50%;
+                        transform: skew(0, 45deg);
+                    }
+                }
+                .card-footer {
+                    visibility: visible;
+                    height: 40px;
+                    padding: .5em 2.5em 1.3em 2.5em;
+                    padding-left: 3em;
+                }
+            }
+        }
+    }
+}

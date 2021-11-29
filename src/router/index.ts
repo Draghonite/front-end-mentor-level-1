@@ -6,6 +6,7 @@ import { StatsPreviewRoutes } from '@/modules/3-stats-preview-card'
 import { ThreeColumnPreviewRoutes } from '@/modules/4-three-column-preview-card'
 import { ProfileCardRoutes } from '@/modules/5-profile-card'
 import { FAQAccordionRoutes } from '@/modules/6-faq-accordion-card'
+import { ArticlePreviewRoutes } from '@/modules/7-article-preview'
 
 const modules = [
   ...NFTRoutes, 
@@ -13,7 +14,8 @@ const modules = [
   ...StatsPreviewRoutes,
   ...ThreeColumnPreviewRoutes,
   ...ProfileCardRoutes,
-  ...FAQAccordionRoutes
+  ...FAQAccordionRoutes,
+  ...ArticlePreviewRoutes
 ];
 
 const routes: Array<RouteRecordRaw> = [

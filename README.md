@@ -22,6 +22,7 @@ This contains several collections, focusing on Level 1 complexity, namely:
 - [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/three-column-preview)
 - [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/profile-card)
 - [FAQ accordion card](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/faq-accordion-card)
+- [Article preview component](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/article-preview)
 - ...
 
 ## My process
