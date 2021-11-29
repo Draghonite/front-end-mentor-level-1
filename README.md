@@ -44,3 +44,5 @@ In order to allow building many designs in a single Vue.js application, a scalab
 
 - [Base64 Image Encoder](https://elmah.io/tools/base64-image-encoder/)
   - I found it easier and cleaner to base-64 encode images (.png, .jpg and .svg) and add as a background via CSS than to reference external resources, especially given the modular project structure.  This online tool was pivotal in this strategy.
+- [Making Shapes with CSS](https://www.youtube.com/watch?v=QY7Rj8aZcZk) and [Before and After pseudo elements explained](https://www.youtube.com/watch?v=zGiirUiWslI)
+  - Kevin Powell is a CSS guru, and in these videos, he lays down a solid foundation for understanding *::before and *::after pseudo elements in CSS.  The second link leads to a 3-part series...a true gem.
