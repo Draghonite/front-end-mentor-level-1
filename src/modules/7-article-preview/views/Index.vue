@@ -10,11 +10,11 @@
                 <div class="share-menu d-flex justify-content-between">
                     <div class="share-options">
                         <span>Share</span>
-                        <button type="button" class="btn nostyle" v-on:click="shareSocial('Facebook'); isSharing = false"><i class="fa fa-facebook-square"></i></button>
-                        <button type="button" class="btn nostyle" v-on:click="shareSocial('Twitter'); isSharing = false"><i class="fa fa-twitter"></i></button>
-                        <button type="button" class="btn nostyle" v-on:click="shareSocial('Pinterest'); isSharing = false"><i class="fa fa-pinterest"></i></button>
+                        <button type="button" class="btn nostyle" v-on:click="shareSocial('Facebook'); isSharing = false" aria-label="Share via Facebook"><i class="fa fa-facebook-square"></i></button>
+                        <button type="button" class="btn nostyle" v-on:click="shareSocial('Twitter'); isSharing = false" aria-label="Share via Twitter"><i class="fa fa-twitter"></i></button>
+                        <button type="button" class="btn nostyle" v-on:click="shareSocial('Pinterest'); isSharing = false" aria-label="Share via Pinterest"><i class="fa fa-pinterest"></i></button>
                     </div>
-                    <button type="button" class="btn share" v-on:click="isSharing = !isSharing"><i class="fa fa-share" aria-hidden="true"></i></button>
+                    <button type="button" class="btn share" v-on:click="isSharing = !isSharing" aria-label="Share toggle"><i class="fa fa-share" aria-hidden="true"></i></button>
                 </div>
                 <div class="card-footer d-flex justify-content-between align-items-center">
                     <div class="d-flex">
@@ -24,7 +24,7 @@
                             <span class="article-date">{{article.Created}}</span>
                         </div>
                     </div>
-                    <button type="button" class="btn share" v-on:click="isSharing = !isSharing"><i class="fa fa-share" aria-hidden="true"></i></button>
+                    <button type="button" class="btn share" v-on:click="isSharing = !isSharing" aria-label="Share toggle"><i class="fa fa-share" aria-hidden="true"></i></button>
                 </div>
             </div>
         </article>
