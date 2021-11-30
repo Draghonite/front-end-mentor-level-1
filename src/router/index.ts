@@ -8,6 +8,7 @@ import { ProfileCardRoutes } from '@/modules/5-profile-card'
 import { FAQAccordionRoutes } from '@/modules/6-faq-accordion-card'
 import { ArticlePreviewRoutes } from '@/modules/7-article-preview'
 import { SocialProofSectionRoutes } from '@/modules/8-social-proof-section'
+import { FourCardFeatureSectionRoutes } from '@/modules/9-four-card-feature-section'
 
 const modules = [
   ...NFTRoutes, 
@@ -17,7 +18,8 @@ const modules = [
   ...ProfileCardRoutes,
   ...FAQAccordionRoutes,
   ...ArticlePreviewRoutes,
-  ...SocialProofSectionRoutes
+  ...SocialProofSectionRoutes,
+  ...FourCardFeatureSectionRoutes
 ];
 
 const routes: Array<RouteRecordRaw> = [
