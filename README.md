@@ -23,6 +23,7 @@ This contains several collections, focusing on Level 1 complexity, namely:
 - [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/profile-card)
 - [FAQ accordion card](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/faq-accordion-card)
 - [Article preview component](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/article-preview)
+- [Social proof section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/social-proof-section)
 - ...
 
 ## My process
