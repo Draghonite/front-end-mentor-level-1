@@ -9,6 +9,7 @@ import { FAQAccordionRoutes } from '@/modules/6-faq-accordion-card'
 import { ArticlePreviewRoutes } from '@/modules/7-article-preview'
 import { SocialProofSectionRoutes } from '@/modules/8-social-proof-section'
 import { FourCardFeatureSectionRoutes } from '@/modules/9-four-card-feature-section'
+import { BaseApparelComingSoonRoutes } from '@/modules/10-base-apparel-coming-soon'
 
 const modules = [
   ...NFTRoutes, 
@@ -19,7 +20,8 @@ const modules = [
   ...FAQAccordionRoutes,
   ...ArticlePreviewRoutes,
   ...SocialProofSectionRoutes,
-  ...FourCardFeatureSectionRoutes
+  ...FourCardFeatureSectionRoutes,
+  ...BaseApparelComingSoonRoutes
 ];
 
 const routes: Array<RouteRecordRaw> = [

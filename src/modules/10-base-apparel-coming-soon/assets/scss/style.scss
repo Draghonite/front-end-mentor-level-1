@@ -1,0 +1,159 @@
+@import './variables';
+
+.app-base-apparel-coming-soon {
+    font-size: $text-body-copy-font-size;
+    font-family: $font-family;
+    min-height: max(800px, 100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        width: 375px;
+        min-height: inherit;
+        header {
+            height: 83px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding-left: 2rem;
+            img {
+                height: 20px;
+            }
+        }
+        .hero {
+            width: 100%;
+            height: 250px;
+            background-image: url('../images/hero-mobile.jpg');
+            background-size: cover;
+        }
+        h1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-top: 4.2rem;
+            letter-spacing: .6rem;
+            color: $color-neutral-dark-grayish-red;
+            .accent {
+                color: $color-primary-desaturated-red;
+                font-weight: 300;
+            }
+        }
+        .content {
+            font-size: 0.89rem;
+            line-height: 1.4rem;
+            color: #ce9797;
+            width: 35ch;
+            margin: 1.1rem auto;
+            text-align: center;
+        }
+        .form {
+            margin: 2rem auto;
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            .controls {
+                padding: 0;
+                border: 1px solid #ccc;
+                padding-left: 1.2rem;
+                border-radius: 25px;
+                display: flex;
+                align-items: center;
+                width: 85%;
+                position: relative;
+                input[type=email] {
+                    border: none;
+                    outline: none;
+                    &::placeholder {
+                        color: $color-primary-desaturated-red;
+                        opacity: .6;
+                    }
+                    height: 48px;
+                }
+                .validation-icon {
+                    height: 18px;
+                }
+                button {
+                    border: none;
+                    width: 66px;
+                    height: 48px;
+                    margin: 0;
+                    padding: 0;
+                    background: $linear-gradient-2;
+                    border-radius: 30px;
+                    margin-left: 1rem;
+                    box-shadow: 0 15px 20px -5px #ccc;
+                    cursor: pointer;
+                    position: absolute;
+                    right: 0;
+                    &:hover {
+                        background: $linear-gradient-1;
+                    }
+                }
+            }
+            .validation-errors {
+                font-size: .8em;
+                color: $color-primary-soft-red;
+                margin-top: 1em;
+                margin-left: 1.2rem;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1100px) {
+        min-height: max(480px, 100vh);
+        background-image: url('../images/bg-pattern-desktop.svg');
+        .container {
+            width: 100vw;
+            display: grid;
+            grid-template: 
+                'header hero'
+                'h1 hero'
+                'content hero'
+                'form hero'
+            ;
+            grid-template-columns: 57% 43%;
+            header, h1, .content, .form {
+                width: 65%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header {
+                grid-area: header;
+                padding-left: 0;
+                margin-top: 2.5rem;
+                img {
+                    height: 33px;
+                }
+            }
+            h1 {
+                grid-area: h1;
+                font-size: 4rem;
+                align-items: start;
+                margin-top: 7.5rem;
+            }
+            .content {
+                grid-area: content;
+                text-align: left;
+                margin: 1.7rem auto;
+                font-size: 1rem;
+                line-height: 1.7rem;
+            }
+            .form {
+                grid-area: form;
+                margin: 1rem auto 11rem auto;
+                .controls {
+                    width: 97%;
+                }
+            }
+            .hero {
+                grid-area: hero;
+                height: auto;
+                background-image: url('../images/hero-desktop.jpg');
+            }
+        }
+    }
+}
