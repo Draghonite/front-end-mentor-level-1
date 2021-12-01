@@ -67,6 +67,7 @@
                 input[type=email] {
                     border: none;
                     outline: none;
+                    width: 70%;
                     &::placeholder {
                         color: $color-primary-desaturated-red;
                         opacity: .6;
