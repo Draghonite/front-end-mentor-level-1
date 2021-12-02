@@ -26,6 +26,7 @@ This contains several collections, focusing on Level 1 complexity, namely:
 - [Social proof section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/social-proof-section)
 - [Four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/four-card-feature-section)
 - [Base apparel coming soon page](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/base-apparel-coming-soon)
+- [Intro component with sign-up form](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/intro-component-with-signup-form)
 - ...
 
 ## My process

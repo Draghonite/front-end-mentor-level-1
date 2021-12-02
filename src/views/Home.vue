@@ -11,7 +11,8 @@
       <router-link to="/article-preview">Article Preview</router-link> |
       <router-link to="/social-proof-section">Social Proof Section</router-link> |
       <router-link to="/four-card-feature-section">Four Card Feature Section</router-link> |
-      <router-link to="/base-apparel-coming-soon">Base Apparel Coming Soon</router-link>
+      <router-link to="/base-apparel-coming-soon">Base Apparel Coming Soon</router-link> |
+      <router-link to="/intro-component-with-signup-form">Intro Component with Signup Form</router-link>
     </div>
     <!-- TODO: setup as a portfolio site and link to all projects (modules) as well as GitHub repo -->
   </div>
