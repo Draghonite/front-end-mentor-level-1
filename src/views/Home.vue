@@ -14,7 +14,8 @@
       <router-link to="/base-apparel-coming-soon">Base Apparel Coming Soon</router-link> |
       <router-link to="/intro-component-with-signup-form">Intro Component with Signup Form</router-link> |
       <router-link to="/single-price-grid">Single Price Grid</router-link> |
-      <router-link to="/ping-coming-soon-page">Ping Coming Soon Page</router-link>
+      <router-link to="/ping-coming-soon-page">Ping Coming Soon Page</router-link> |
+      <router-link to="/huddle-landing-page-with-single-introductory-section">Huddle Landing Page</router-link>
     </div>
     <!-- TODO: setup as a portfolio site and link to all projects (modules) as well as GitHub repo -->
   </div>

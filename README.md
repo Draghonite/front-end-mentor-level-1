@@ -29,7 +29,7 @@ This contains several collections, focusing on Level 1 complexity, namely:
 - [Intro component with sign-up form](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/intro-component-with-signup-form)
 - [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/single-price-grid)
 - [Ping single column coming soon](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/ping-coming-soon-page)
-- ...
+- [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/huddle-landing-page)
 
 ## My process
 

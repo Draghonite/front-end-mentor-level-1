@@ -4,7 +4,7 @@
     font-size: $text-body-copy-font-size;
     font-family: $font-family;
     min-height: max(800px, 100vh);
-    min-width: min(375, 100vw);
+    min-width: min(375px, 100vw);
     display: grid;
     place-items: center;
     .container {

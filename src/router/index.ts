@@ -13,6 +13,7 @@ import { BaseApparelComingSoonRoutes } from '@/modules/10-base-apparel-coming-so
 import { IntroComponentWithSignupFormRoutes } from '@/modules/11-intro-component-with-signup-form'
 import { SinglePriceGridRoutes } from '@/modules/12-single-price-grid'
 import { PingComingSoonPageRoutes } from '@/modules/13-ping-coming-soon-page'
+import { HuddleLandingPageRoutes } from '@/modules/14-huddle-landing-page-with-single-introductory-section'
 
 const modules = [
   ...NFTRoutes, 
@@ -27,7 +28,8 @@ const modules = [
   ...BaseApparelComingSoonRoutes,
   ...IntroComponentWithSignupFormRoutes,
   ...SinglePriceGridRoutes,
-  ...PingComingSoonPageRoutes
+  ...PingComingSoonPageRoutes,
+  ...HuddleLandingPageRoutes
 ];
 
 const routes: Array<RouteRecordRaw> = [
