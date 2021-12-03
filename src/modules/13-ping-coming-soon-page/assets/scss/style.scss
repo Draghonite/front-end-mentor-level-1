@@ -48,7 +48,7 @@
                     }
                 }
                 input {
-                    border: 1px solid $color-primary-blue;
+                    border: 1px solid $color-secondary-pale-blue;
                     border-radius: 30px;
                     padding: 1rem;
                     padding-left: 2rem;
@@ -118,6 +118,14 @@
         min-width: min(640px, 100vw);
         .container {
             max-width: 700px;
+            header {
+                h1 {
+                    font-size: 2.5rem;
+                }
+                .content {
+                    font-size: 1.2rem;
+                }
+            }
             form {
                 display: flex;
                 flex-direction: row;
@@ -130,6 +138,15 @@
                     width: 45%;
                     margin: 0;
                     height: 3.5rem;
+                }
+            }
+            .social {
+                i {
+                    font-size: .8rem;
+                    padding: .5rem;
+                    &.fa-facebook-f {
+                        padding: .5rem .6rem;
+                    }
                 }
             }
         }
