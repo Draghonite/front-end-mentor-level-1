@@ -28,7 +28,7 @@
                 background-color: $color-accent-blue;
                 color: #fff;
                 margin: 4rem 0 1rem 0;
-                box-shadow: 0 8px 0 hsla(28, 28, 31, .35);
+                box-shadow: 0 8px 0 hsla(28, 28%, 31%, .35);
                 .card-body {
                     font-size: 1rem;
                     padding: 1.2rem;
@@ -48,7 +48,7 @@
             }
             .card.form {
                 background-color: #fff;
-                box-shadow: 0 8px 0 hsla(28, 28, 31, .35);
+                box-shadow: 0 8px 0 hsla(28, 28%, 31%, .35);
                 border-radius: 10px;
                 margin-top: 1.5rem;
                 .card-body {
