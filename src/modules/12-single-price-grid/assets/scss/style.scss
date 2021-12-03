@@ -1,0 +1,134 @@
+@import './variables';
+
+.single-price-grid {
+    font-size: $text-body-copy-font-size;
+    font-family: $font-family;
+    color: #fff;
+    min-height: max(870px, 100vh);
+    min-width: min(375px, 100vw);
+    display: grid;
+    place-items: center;
+    background-color: $color-neutral-light-gray;
+    .card {
+        width: 312px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 25px 30px #ccc;
+        section.header {
+            background-color: #fff;
+            padding: 2rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-items: space-between;
+            gap: 1.2rem;
+            h1 {
+                color: $color-primary-cyan;
+                font-size: 1.21rem;
+                font-weight: 700;
+            }
+            h2 {
+                color: $color-primary-bright-yellow;
+                font-size: .9rem;
+                font-weight: 700;
+                line-height: 1.3em;
+            }
+            .content {
+                color: $color-neutral-grayish-blue;
+                font-size: .85rem;
+                line-height: 1.5rem;
+            }
+        }
+        section.action {
+            background-color: $color-primary-cyan;
+            padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1.2rem;
+            h2 {
+                font-size: 1.1rem;
+                font-weight: 400;
+            }
+            .price {
+                .amount {
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+                .frequency {
+                    color: $color-primary-light-cyan;
+                    margin-left: .5rem;
+                }
+            }
+            .content {
+                font-size: .95rem;
+                font-weight: 400;
+                color: $color-primary-very-light-cyan;
+            }
+            button {
+                border: none;
+                cursor: pointer;
+                padding: 1rem;
+                font-size: 1rem;
+                font-weight: 700;
+                color: #fff;
+                border-radius: 5px;
+                background-color: $color-primary-bright-yellow;
+                box-shadow: 0 5px 10px #00000050;
+            }
+            button:hover {
+                box-shadow: none;
+            }
+        }
+        section.about {
+            background-color: $color-primary-desaturated-cyan;
+            padding: 1.5rem;
+            gap: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-items: space-between;
+            h2 {
+                font-size: 1.1rem;
+                font-weight: 400;
+            }
+            ul {
+                list-style: none;
+                li {
+                    font-size: .8rem;
+                    font-weight: 400;
+                    color: $color-primary-very-light-cyan;
+                    line-height: 1.2rem;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 640px) {        
+        min-height: max(500px, 100vh);
+        min-width: min(640px, 100vw);
+        .card {
+            width: 635px;
+            display: grid;
+            grid-template-areas: 
+                'top top'
+                'left right';
+            section.header {
+                grid-area: top;
+                padding: 3rem;
+                .content {
+                    max-width: 60ch;
+                }
+            }
+            section.action {
+                grid-area: left;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 3rem;
+            }
+            section.about {
+                grid-area: right;
+                padding: 3rem;
+            }
+        }
+    }
+}

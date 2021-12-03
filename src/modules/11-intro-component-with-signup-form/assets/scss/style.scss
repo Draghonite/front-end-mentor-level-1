@@ -64,6 +64,9 @@
                                 align-items: center;
                                 padding: .8rem 1rem;
                                 height: 30px;
+                                // & input:focus {
+                                //     border-color: #000;
+                                // }
                                 input {
                                     border: none;
                                     outline: none;
@@ -134,7 +137,6 @@
 
     @media screen and (min-width: 900px) {
         min-height: max(600px, 100vh);
-        padding: 2rem 0;
         background-image: url('../images/bg-intro-desktop.png');
         .container {
             max-width: min(1120px, 100vw);

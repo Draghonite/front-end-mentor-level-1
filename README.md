@@ -27,6 +27,7 @@ This contains several collections, focusing on Level 1 complexity, namely:
 - [Four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/four-card-feature-section)
 - [Base apparel coming soon page](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/base-apparel-coming-soon)
 - [Intro component with sign-up form](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/intro-component-with-signup-form)
+- [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) | [My solution](https://draghonite.github.io/front-end-mentor-level-1/#/single-price-grid)
 - ...
 
 ## My process

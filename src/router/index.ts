@@ -11,6 +11,7 @@ import { SocialProofSectionRoutes } from '@/modules/8-social-proof-section'
 import { FourCardFeatureSectionRoutes } from '@/modules/9-four-card-feature-section'
 import { BaseApparelComingSoonRoutes } from '@/modules/10-base-apparel-coming-soon'
 import { IntroComponentWithSignupFormRoutes } from '@/modules/11-intro-component-with-signup-form'
+import { SinglePriceGridRoutes } from '@/modules/12-single-price-grid'
 
 const modules = [
   ...NFTRoutes, 
@@ -23,7 +24,8 @@ const modules = [
   ...SocialProofSectionRoutes,
   ...FourCardFeatureSectionRoutes,
   ...BaseApparelComingSoonRoutes,
-  ...IntroComponentWithSignupFormRoutes
+  ...IntroComponentWithSignupFormRoutes,
+  ...SinglePriceGridRoutes
 ];
 
 const routes: Array<RouteRecordRaw> = [

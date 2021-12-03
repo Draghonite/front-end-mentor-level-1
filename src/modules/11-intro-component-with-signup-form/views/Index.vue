@@ -18,7 +18,7 @@
                         <div class="controls">
                             <div class="control" :class="{'invalid': validation.isValidationEnabled && !validation.isFirstNameValid}">
                                 <div class="input">
-                                    <input v-model="model.FirstName" type="text" placeholder="First Name" aria-placeholder="First Name" />
+                                    <input v-model="model.FirstName" ref="firstName" type="text" placeholder="First Name" aria-placeholder="First Name" />
                                     <span class="validation-icon"><img src="../assets/images/icon-error.svg" alt="Validation Error Icon" /></span>
                                 </div>
                                 <div class="validation-error">First Name cannot be empty</div>
@@ -60,9 +60,9 @@ import { defineComponent, reactive } from "vue";
 
 export default defineComponent({
     name: "IntroComponentWithSignUpForm",
-    data() {
+    data(scope) {
         const model: any = reactive({
-            FirstName: "",
+            FirstName: "Jonathan ",
             LastName: "",
             EmailAddress: "",
             Password: ""
@@ -105,6 +105,11 @@ export default defineComponent({
                 alert("Thank you for registering!");
                 clearForm();
             }
+        }
+        try {
+            (scope.$refs['firstName'] as any).focus();
+        } catch (ex) {
+            // do nothing
         }
         return {
             model,
