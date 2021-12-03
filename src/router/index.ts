@@ -12,6 +12,7 @@ import { FourCardFeatureSectionRoutes } from '@/modules/9-four-card-feature-sect
 import { BaseApparelComingSoonRoutes } from '@/modules/10-base-apparel-coming-soon'
 import { IntroComponentWithSignupFormRoutes } from '@/modules/11-intro-component-with-signup-form'
 import { SinglePriceGridRoutes } from '@/modules/12-single-price-grid'
+import { PingComingSoonPageRoutes } from '@/modules/13-ping-coming-soon-page'
 
 const modules = [
   ...NFTRoutes, 
@@ -25,7 +26,8 @@ const modules = [
   ...FourCardFeatureSectionRoutes,
   ...BaseApparelComingSoonRoutes,
   ...IntroComponentWithSignupFormRoutes,
-  ...SinglePriceGridRoutes
+  ...SinglePriceGridRoutes,
+  ...PingComingSoonPageRoutes
 ];
 
 const routes: Array<RouteRecordRaw> = [
